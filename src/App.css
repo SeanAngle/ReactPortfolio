@@ -1,3 +1,7 @@
+.ProjectImage{
+  height: 100%;
+}
+
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
@@ -49,8 +53,14 @@ p, a, li, button, ul {
   text-decoration: none;
 }
 
+.siteUrlLink{
+  color: white;
+  height: 100;
+}
+
 a:hover {
   text-decoration: none;
+  color: white;
 }
 
 img {
@@ -440,6 +450,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
@@ -616,3 +628,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
