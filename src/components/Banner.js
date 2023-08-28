@@ -58,7 +58,8 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sean and I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a recient graduate from Texas State University. I got my bachelor's degree in computer science with a minor in business administration. I first got introduced into this world by attending a Web Development Bootcamp! After completing the course to get certified as a web developer I wanted to grow my skill and get a degree in computer science.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
+                  
               </div>}
             </TrackVisibility>
           </Col>
