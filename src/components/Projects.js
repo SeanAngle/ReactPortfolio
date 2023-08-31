@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import PixelArtScreenShot from "../assets/img/TallPixelArtSS.png"
+import CurrencyGenerator from "../assets/img/CurrencyGenerator.png"
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -19,9 +20,9 @@ export const Projects = () => {
     },
     {
       title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: PixelArtScreenShot,
-      siteUrl: "https://storied-klepon-80062f.netlify.app/#"
+      description: "CurrencyGenerator",
+      imgUrl: CurrencyGenerator,
+      siteUrl: "https://64f111017280135db00a8e52--frolicking-douhua-879cfe.netlify.app/"
     },
     {
       title: "Business Startup",
