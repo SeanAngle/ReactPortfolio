@@ -19,8 +19,8 @@ export const Projects = () => {
       siteUrl: "https://classy-profiterole-869f34.netlify.app",
     },
     {
-      title: "Business Startup",
-      description: "CurrencyGenerator",
+      title: "CurrencyGenerator",
+      description: "Web App where you can figure out any currency exchange between two countries.",
       imgUrl: CurrencyGenerator,
       siteUrl: "https://64f111017280135db00a8e52--frolicking-douhua-879cfe.netlify.app/"
     },
